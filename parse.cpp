@@ -59,7 +59,7 @@ shared_ptr<demogData> readCSVLineDemog(std::string theLine) {
     //the right field
 
     //now skip over some data
-    for (int i=0; i < 33; i++)
+    for (int i=0; i < 31; i++)
         getField(ss);
 
     int totalPop2014 = stoi(getField(ss));
